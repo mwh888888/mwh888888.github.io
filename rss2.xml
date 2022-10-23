@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>度义而后动，是而不见可悔故也</description>
-    <pubDate>Sun, 23 Oct 2022 16:03:29 GMT</pubDate>
+    <pubDate>Sun, 23 Oct 2022 16:10:30 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -25,7 +25,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>具体教程详见枫叶大神的博客，<a href="https://zhuanlan.zhihu.com/p/102592286">https://zhuanlan.zhihu.com/p/102592286</a>，本篇只是对其中的一些步骤和本人搭建个人博客过程中遇到的问题提供改进以及解决方法。</p><hr><p>1、第三篇输入用户名和邮箱时，要先输入邮箱。</p><p>2、第三篇最后一步，将master改成main即可。</p><p>3、第五篇中在建立两个文件夹node_global与node_caceh时，需要右键设置“属性”，将用户具有完全属性的权限或者直接以管理员身份运行cmd，遇见 hexo command not found的同学，可以在path环境变量中新增一个D:\Blog\node_modules\hexo-cli\bin，是你对应安装的hexo的路径。</p><p>4、第五篇在填deploy:<br>  type: git<br>  repository: <a href="https://github.com/fengye97/fengye97.github.io.git">https://github.com/fengye97/fengye97.github.io.git</a>  #你的仓库地址<br>  branch: master时，要将前两行删除，否则会报错，最后面要修改成main。</p><p>5、如果第七篇每次更换完主题后，都要到github项目里面的setting设置custom domain为自己的域名，那应该是CNAME文件后缀.txt没有去掉。</p><p>6、第八篇进行主题优化时，尽量一步步来，每次之后hexo三部曲，才能更好的发现问题。hexo三部曲后，会有网络延迟等原因，导致无法显示，是正常现象，可以试试清除浏览器缓存（注意不要删除Cookie和其他站点数据）。</p><p>Ps:过程中或许会遇到一些网络问题，这时候就需要一些玄学了~~</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>具体教程详见枫叶大神的博客，<a href="https://zhuanlan.zhihu.com/p/102592286">https://zhuanlan.zhihu.com/p/102592286</a>，本篇只是对其中的一些步骤和本人搭建个人博客过程中遇到的问题提供改进以及解决方法。</p><hr><p>1、第三篇输入用户名和邮箱时，要先输入邮箱。</p><p>2、第三篇最后一步，将master改成main即可。</p><p>3、第五篇中在建立两个文件夹node_global与node_caceh时，需要右键设置“属性”，将用户具有完全属性的权限或者直接以管理员身份运行cmd，遇见 hexo command not found的同学，可以在path环境变量中新增一个D:\Blog\node_modules\hexo-cli\bin，是你对应安装的hexo的路径。</p><p>4、第五篇在填</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">  deploy:</span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repository: https://github.com/fengye97/fengye97.github.io.git  <span class="comment">#你的仓库地址</span></span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure><p>时，要将前两行删除，否则会报错，最后面要修改成main。</p><p>5、如果第七篇每次更换完主题后，都要到github项目里面的setting设置custom domain为自己的域名，那应该是CNAME文件后缀.txt没有去掉。</p><p>6、第八篇进行主题优化时，尽量一步步来，每次之后hexo三部曲，才能更好的发现问题。hexo三部曲后，会有网络延迟等原因，导致无法显示，是正常现象，可以试试清除浏览器缓存（注意不要删除Cookie和其他站点数据）。</p><p>Ps:过程中或许会遇到一些网络问题，这时候就需要一些玄学了~~</p>]]></content:encoded>
       
       
       
