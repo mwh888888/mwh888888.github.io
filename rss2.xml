@@ -9,11 +9,11 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>度义而后动，是而不见可悔故也</description>
-    <pubDate>Mon, 24 Oct 2022 00:32:20 GMT</pubDate>
+    <pubDate>Mon, 24 Oct 2022 04:49:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>Hello World</title>
+      <title>关于个人博客搭建的一些纠正与建议</title>
       <link>http://example.com/2022/10/24/hello-world%20-%20%E5%89%AF%E6%9C%AC/</link>
       <guid>http://example.com/2022/10/24/hello-world%20-%20%E5%89%AF%E6%9C%AC/</guid>
       <pubDate>Mon, 24 Oct 2022 00:23:00 GMT</pubDate>
