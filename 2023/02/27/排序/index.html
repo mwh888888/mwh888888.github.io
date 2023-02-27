@@ -23,19 +23,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="title:  排序算法  一、快排1、快排的简述&amp;emsp;&amp;emsp;快排之所以快，是因为相对于冒泡排序，它可以是跳跃式的交换，而不再只有相邻的数的交换，但它也存在最差的情况，时间复杂度和冒泡排序是一样的，都是O(N^2),平均复杂度为O(NlogN)。2、快排的实现&amp;emsp;&amp;emsp;选取最左边的点为基准点，用到i，j两个变量，i在最左边，j在最右边，j">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2022/10/12/hello-world/index.html">
+<meta property="og:title" content="听雨亭">
+<meta property="og:url" content="http://example.com/2023/02/27/%E6%8E%92%E5%BA%8F/index.html">
 <meta property="og:site_name" content="听雨亭">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="title:  排序算法  一、快排1、快排的简述&amp;emsp;&amp;emsp;快排之所以快，是因为相对于冒泡排序，它可以是跳跃式的交换，而不再只有相邻的数的交换，但它也存在最差的情况，时间复杂度和冒泡排序是一样的，都是O(N^2),平均复杂度为O(NlogN)。2、快排的实现&amp;emsp;&amp;emsp;选取最左边的点为基准点，用到i，j两个变量，i在最左边，j在最右边，j">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-10-12T11:12:11.362Z">
-<meta property="article:modified_time" content="2022-10-12T11:12:11.362Z">
+<meta property="article:published_time" content="2023-02-27T08:15:57.204Z">
+<meta property="article:modified_time" content="2023-02-27T08:19:56.473Z">
 <meta property="article:author" content="庭羽">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2022/10/12/hello-world/">
+<link rel="canonical" href="http://example.com/2023/02/27/%E6%8E%92%E5%BA%8F/">
 
 
 <script id="page-configurations">
@@ -48,7 +48,7 @@
   };
 </script>
 
-  <title>Hello World | 听雨亭</title>
+  <title> | 听雨亭</title>
   
 
 
@@ -212,7 +212,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/10/12/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/27/%E6%8E%92%E5%BA%8F/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -225,7 +225,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          
         </h1>
 
         <div class="post-meta">
@@ -236,8 +236,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2022-10-12 19:12:11" itemprop="dateCreated datePublished" datetime="2022-10-12T19:12:11+08:00">2022-10-12</time>
+              <time title="创建时间：2023-02-27 16:15:57 / 修改时间：16:19:56" itemprop="dateCreated datePublished" datetime="2023-02-27T16:15:57+08:00">2023-02-27</time>
             </span>
 
           
@@ -253,14 +254,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>367</span>
+              <span>4.3k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -272,19 +273,126 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <hr>
+<h2 id="title-排序算法"><a href="#title-排序算法" class="headerlink" title="title:  排序算法 "></a>title:  排序算法 </h2><hr>
+<h2 id="一、快排"><a href="#一、快排" class="headerlink" title="一、快排"></a><font color="black" size=6 face="">一、快排</font></h2><p><font color="black" size=6 face="">1、快排的简述</font><br><font color="black" size=5 face="">&amp;emsp;&amp;emsp;快排之所以快，是因为相对于冒泡排序，它可以是跳跃式的交换，而不再只有相邻的数的交换，但它也存在最差的情况，时间复杂度和冒泡排序是一样的，都是O(N^2),平均复杂度为O(NlogN)。</font><br><font color="black" size=6 face="">2、快排的实现</font><br><font color="black" size=5 face="">&amp;emsp;&amp;emsp;选取最左边的点为基准点，用到i，j两个变量，i在最左边，j在最右边，j向左移动，找到比基准值小的数停下，i向右移动，找到比基准值大的数停下，交换，直到i，j碰面，与基准值交换，然后递归处理左半边和右半边。</font><br><font color="black" size=6 face="">3、快排的代码实现</font>     </p>
+<pre><code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int n,i,j,a[100];  //定义全局变量   </span><br><span class="line"></span><br><span class="line">void quicksort(int left, int right)   </span><br><span class="line">&#123;  </span><br><span class="line"></span><br><span class="line">	int temp,t;   //temp变量是基准，t变量是用来交换的第三变量  </span><br><span class="line">	if(left &gt; right)   //跳出循环的第一个条件  </span><br><span class="line">	&#123;  </span><br><span class="line">		return;  </span><br><span class="line">	&#125;  </span><br><span class="line"></span><br><span class="line">	temp = a[left];   //此时选用的是第一个数当做基准 </span><br><span class="line">	i = left; //i是1 </span><br><span class="line">	j = right; //j是n </span><br><span class="line">	while(i != j) //当i,j没有走到一块的时候 </span><br><span class="line">	&#123;</span><br><span class="line">		while(a[j] &gt;= temp &amp;&amp; i&lt;j)   //j一步一步左移，查找比基准值小的数 </span><br><span class="line">		&#123;</span><br><span class="line">			j--;</span><br><span class="line">		&#125;</span><br><span class="line">		while(a[i] &lt;= temp &amp;&amp; i&lt;j)   //i一步一步右移，查找比基准值大的数 </span><br><span class="line">		&#123;</span><br><span class="line">			i++;</span><br><span class="line">		&#125;</span><br><span class="line">		if(i &lt; j)</span><br><span class="line">		&#123;</span><br><span class="line">			t = a[i];//将j查到的比基准值的数与i查到的比基准值小的数交换 </span><br><span class="line">			a[i] = a[j];  //即将小的数放在基准值左边 </span><br><span class="line">			a[j] = t;  //将大的数放在基准值右边 </span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	  //将基准值归位 </span><br><span class="line">	a[left] = a[i];//当循环结束时，i=j，在中间某一位置 </span><br><span class="line">	a[i] = temp;  //将那一位置的数与基准值交换 </span><br><span class="line">	</span><br><span class="line">	//递归 ，将基准值左边分为一部分</span><br><span class="line">   	//将基准值右边分为一部分 </span><br><span class="line">	quicksort(left,i-1); //继续处理左半部分的数</span><br><span class="line">	quicksort(i+1,right);   //继续处理右半部分的数  </span><br><span class="line">	return ;  </span><br><span class="line">&#125;</span><br><span class="line">   </span><br></pre></td></tr></table></figure>
+</code></pre>
+<hr>
+<h2 id="二、桶排序"><a href="#二、桶排序" class="headerlink" title="二、桶排序"></a><font color="black" size=6 face="">二、桶排序</font></h2><p><font color="black" size=6 face="">1、桶排序的简述</font><br><font color="black" size=5 face="">&amp;emsp;&amp;emsp;桶排序是计数排序的升级版，也是分治算法。它利用了函数的映射关系，高效与否的关键就在于这个映射函数的确定。时间复杂度大约为O(n)，桶排序 (Bucket sort)的工作的原理：假设输入数据服从均匀分布，将数据分到有限数量的桶里，每个桶再分别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排),就是将值为i的元素放到第i个位置，每放一个就给对应的位置加一。当然，如果数据很大并且极为分散，那么可以利用离散化等方法处理。</font><br><font color="black" size=6 face="">2、桶排序的实现</font><br><font color="black" size=5 face="">&amp;emsp;&amp;emsp;初始化数组，读取数据，每读取一个数据，数组对应位置的值加一。</font><br><font color="black" size=6 face="">3、桶排序的代码实现</font>   </p>
+<pre><code>viod Bucket sort()
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+&#123;  
+int book[1001],i,j,n,k;   
+cin&gt;&gt;n;   
+for(i=0;i&lt;=1000;i++)  //创造1000个桶，默认里面都装0个   
+&#123;  
+book[i]=0;  
+&#125;  
+for(i=0;i&lt;n;i++)   //向对应数字的桶里放数字   
+&#123;  
+cin&gt;&gt;k;   
+book[k]++;  
+&#125;   
+for(i=1000;i&gt;=0;i--)   
+ &#123;   
+   for(j=1;j&lt;=book[i];j++)   
+   &#123;   
+   cout&lt;&lt;i&lt;&lt;&quot; &quot;; //检验每个箱子里的个数，0的直接舍弃掉   
+   &#125;   
+ &#125;
+&#125;
+</code></pre>
+<hr>
+<h2 id="三、堆排序"><a href="#三、堆排序" class="headerlink" title="三、堆排序  "></a><font color="black" size=6 face="">三、堆排序</font>  </h2><p><font color="black" size=6 face="">1、堆排序的简述</font><br><font color="black" size=5 face="">&amp;emsp;&amp;emsp;堆是一种叫做完全二叉树的数据结构，可以分为大根堆，小根堆，而堆排序就是基于这种结构而产生的一种程序算法。<br>&amp;emsp;&amp;emsp;大根堆:每个节点的值都大于或者等于他的左右孩子节点的值。<br>&amp;emsp;&amp;emsp;小根堆:每个结点的值都小于或等于其左孩子和右孩子结点的值。<br></font><br><font color="black" size=6 face="">2、堆排序的实现</font><br><font color="black" size=5 face="">&amp;emsp;&amp;emsp;1.首先将待排序的数组构造成一个大根堆，此时，整个数组的最大值就是堆结构的顶端</p>
+<p>&amp;emsp;&amp;emsp;2.将顶端的数与末尾的数交换，此时，末尾的数为最大值，剩余待排序数组个数为n-1</p>
+<p>&amp;emsp;&amp;emsp;3.将剩余的n-1个数再构造成大根堆，再将顶端数与n-1位置的数交换，如此反复执行，便能得到有序数组</p>
+<p>&amp;emsp;&amp;emsp;注意:升序用大根堆，降序就用小根堆</font><br><font color="black" size=6 face="">3、堆排序的代码实现</font>   </p>
+<pre><code>void HeapAdjust(int* arr, int start, int end)  
+&#123;  
+    int tmp = arr[start];  
+    for (int i = 2 * start + 1; i &lt;= end; i = i * 2 + 1)  
+    &#123;  
+        if (i &lt; end&amp;&amp; arr[i] &lt; arr[i + 1])//有右孩子并且左孩子小于右孩子  
+        &#123;  
+            i++;  
+        &#125;//i一定是左右孩子的最大值  
+        if (arr[i] &gt; tmp)  
+        &#123;  
+            arr[start] = arr[i];  
+            start = i;  
+        &#125;  
+        else  
+        &#123;  
+            break;  
+        &#125;  
+    &#125;  
+    arr[start] = tmp;  
+&#125;  
+void HeapSort(int* arr, int len)  
+&#123;  
+    //第一次建立大根堆，从后往前依次调整  
+    for(int i=(len-1-1)/2;i&gt;=0;i--)  
+    &#123;  
+        HeapAdjust(arr, i, len - 1);  
+    &#125;  
+    //每次将根和待排序的最后一次交换，然后在调整  
+    int tmp;  
+    for (int i = 0; i &lt; len - 1; i++)  
+    &#123;  
+        tmp = arr[0];  
+        arr[0] = arr[len - 1-i];  
+        arr[len - 1 - i] = tmp;  
+        HeapAdjust(arr, 0, len - 1-i- 1);  
+    &#125;  
+&#125;  
+int main()  
+&#123;  
+    int arr[] = &#123; 9,5,6,3,5,3,1,0,96,66 &#125;;  
+    HeapSort(arr, sizeof(arr) / sizeof(arr[0]));  
+    printf(&quot;排序后为:&quot;);  
+    for (int i = 0; i &lt; sizeof(arr) / sizeof(arr[0]);   i++)  
+    &#123;  
+        printf(&quot;%d &quot;, arr[i]);  
+    &#125;  
+    return 0;  
+&#125;  
+</code></pre>
+<p>参考 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_51609435/article/details/122982075?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167748309116782425644627%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167748309116782425644627&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-122982075-null-null.142%5Ev73%5Econtrol,201%5Ev4%5Eadd_ask,239%5Ev2%5Einsert_chatgpt&amp;utm_term=%E5%A0%86%E6%8E%92%E5%BA%8F&amp;spm=1018.2226.3001.4187">https://blog.csdn.net/weixin_51609435/article/details/122982075?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167748309116782425644627%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167748309116782425644627&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-122982075-null-null.142^v73^control,201^v4^add_ask,239^v2^insert_chatgpt&amp;utm_term=%E5%A0%86%E6%8E%92%E5%BA%8F&amp;spm=1018.2226.3001.4187</a></p>
+<hr>
+<h2 id="四、插入排序"><a href="#四、插入排序" class="headerlink" title="四、插入排序  "></a><font color="black" size=6 face="">四、插入排序</font>  </h2><p><font color="black" size=6 face="">1、插入排序的简述</font><br><font color="black" size=5 face="">&amp;emsp;&amp;emsp;把n个待排序的元素看成为一个有序表和一个无序表，开始时有序表中只包含一个元素，无序表中包含有n-1个元素，排序过程中每次从无序表中取出第一个元素，在有序表中从后往前进行比较，将它插入到有序表中的适当位置，使之成为新的有序表。<br></font><br><font color="black" size=6 face="">2、插入排序的实现</font><br><font color="black" size=5 face=""><br>&amp;emsp;&amp;emsp;1.从第一个元素开始，该元素可以认为已经被排序<br>&amp;emsp;&amp;emsp;2.取下一个元素tem，从已排序的元素序列从后往前扫描<br>&amp;emsp;&amp;emsp;3.如果该元素大于tem，则将该元素移到下一位<br>&amp;emsp;&amp;emsp;4.重复步骤3，直到找到已排序元素中小于等于tem的元素<br>&amp;emsp;&amp;emsp;5.tem插入到该元素的后面，如果已排序所有元素都大于tem，则将tem插入到下标为0的位置<br>&amp;emsp;&amp;emsp;6.重复步骤2~5</font><br><font color="black" size=6 face="">3、插入排序的代码实现</font>  </p>
+<pre><code>void InsertSort(int* arr, int n)
+&#123;
+    for (int i = 0; i &lt; n - 1; ++i)
+    &#123;
+        //记录有序序列最后一个元素的下标
+        int end = i;
+        //待插入的元素
+        int tem = arr[end + 1];
+        //单趟排
+        while (end &gt;= 0)
+        &#123;
+            //比插入的数大就向后移
+            if (tem &lt; arr[end])
+            &#123;
+                arr[end + 1] = arr[end];
+                end--;
+            &#125;
+            //比插入的数小，跳出循环
+            else
+            &#123;
+                break;
+            &#125;
+        &#125;
+        //tem放到比插入的数小的数的后面
+        arr[end  + 1] = tem;
+        //代码执行到此位置有两种情况:
+        //1.待插入元素找到应插入位置（break跳出循环到此）
+        //2.待插入元素比当前有序序列中的所有元素都小（while循环结束后到此）
+    &#125;
+&#125;
+</code></pre>
+<p>参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_50886514/article/details/119045154">https://blog.csdn.net/weixin_50886514/article/details/119045154</a> </p>
 
     </div>
 
@@ -330,7 +438,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2022/10/12/hello-world/" title="Hello World">http://example.com/2022/10/12/hello-world/</a>
+    <a href="http://example.com/2023/02/27/%E6%8E%92%E5%BA%8F/" title="">http://example.com/2023/02/27/排序/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -375,11 +483,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2022/10/24/hello-world%20-%20%E5%89%AF%E6%9C%AC/" rel="next" title="关于个人博客搭建的一些纠正与建议">
-      关于个人博客搭建的一些纠正与建议 <i class="fa fa-chevron-right"></i>
+    <a href="/2022/10/24/hello-world%20-%20%E5%89%AF%E6%9C%AC/" rel="prev" title="关于个人博客搭建的一些纠正与建议">
+      <i class="fa fa-chevron-left"></i> 关于个人博客搭建的一些纠正与建议
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -443,7 +551,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#title-%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">title:  排序算法 </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%BF%AB%E6%8E%92"><span class="nav-number">2.</span> <span class="nav-text">一、快排</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%A1%B6%E6%8E%92%E5%BA%8F"><span class="nav-number">3.</span> <span class="nav-text">二、桶排序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%A0%86%E6%8E%92%E5%BA%8F"><span class="nav-number">4.</span> <span class="nav-text">三、堆排序  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="nav-number">5.</span> <span class="nav-text">四、插入排序  </span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
